@@ -69,11 +69,7 @@ with st.spinner("Loading Model..."):
 # -----------------------------
 # Streamlit UI
 # -----------------------------
-st.set_page_config(
-    page_title="Fake News Detector",
-    page_icon="📰",
-    layout="centered"
-)
+
 
 st.title("📰 Fake News Detection using Machine Learning")
 
